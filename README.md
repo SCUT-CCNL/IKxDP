@@ -28,13 +28,12 @@ This code is based on the [KGxDP](https://github.com/SCUT-CCNL/KGxDP ) codebase.
 - `metrics.py`: Contains all the evaluation metrics used in the paper, with references to [Chet](https://github.com/luchang-cs/chet).
 - The `modeling/` directory contains the model implementations and the Sequence Graph construction and embedding.
 - The `util/` directory includes utility functions, such as the data loading.
--  
 
 
 
 #  Acknowledge 
 
-In our work, part of the code is referenced from the following open-source code: 
+Part of the codes are referenced from the following open-source code: 
 
 1. RETAIN: An Interpretable Predictive Model for Healthcare using Reverse Time Attention Mechanism. https://github.com/mp2893/retain 
    
