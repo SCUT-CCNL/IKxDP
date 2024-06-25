@@ -4,7 +4,8 @@ This is the code for the paper "IKxDP: Implicit Knowledge Enhanced Explainable D
 
 - **MIMIC III** can be downloaded from: [PhysioNet, MIMIC III ](https://physionet.org/content/mimiciii/1.4/)
 - **MIMIC IV** can be accessed at: [PhysioNet, MIMIC IV](https://physionet.org/content/mimiciv/2.2/)
- The code of data processing can refer to [RETAIN](https://github.com/mp2893/retain).
+
+The code of data processing can refer to [RETAIN](https://github.com/mp2893/retain).
 
 ## Prerequisites
 
