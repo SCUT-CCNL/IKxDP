@@ -1,9 +1,10 @@
-This repository contains the code for the paper "IKxDP: Implicit Knowledge Enhanced Explainable Disease Prediction". We primarily utilized two datasets, namely MIMIC III and MIMIC IV, with nearly identical processing methods. Here, we demonstrate how to conduct experiments using MIMIC III.
+This is the code for the paper "IKxDP: Implicit Knowledge Enhanced Explainable Disease Prediction". We primarily utilized two datasets, namely MIMIC III and MIMIC IV, with nearly identical processing methods. Here, we demonstrate how to conduct experiments using MIMIC III.
 
 ## Datasets
 
 - **MIMIC III** can be downloaded from: [PhysioNet, MIMIC III ](https://physionet.org/content/mimiciii/1.4/)
 - **MIMIC IV** can be accessed at: [PhysioNet, MIMIC IV](https://physionet.org/content/mimiciv/2.2/)
+ The code of data processing can refer to [RETAIN](https://github.com/mp2893/retain).
 
 ## Prerequisites
 
@@ -24,8 +25,9 @@ This code is based on the [KGxDP](https://github.com/SCUT-CCNL/KGxDP ) codebase.
 
 - `train.py`: This script is used for training and validating the models. It utilizes default parameter values but also allows for runtime configuration adjustments.
 - `metrics.py`: Contains all the evaluation metrics used in the paper, with references to [Chet](https://github.com/luchang-cs/chet).
-- The `modeling/` directory houses the model implementations and the Seq Graph.
-- The `util/` directory includes utility functions for data processing and transformations.
+- The `modeling/` directory contains the model implementations and the Sequence Graph construction and embedding.
+- The `util/` directory includes utility functions, such as the data loading.
+-  
 
 
 
